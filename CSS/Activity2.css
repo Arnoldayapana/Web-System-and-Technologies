@@ -60,10 +60,63 @@ nav h1{
   width: 40px;
   cursor: pointer;
 }
+.Section{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5%;
+  background-color: #d3d3d3;
+}
+.Sec-Container{
+  display: flex;
+  padding: 2%;
+}
+.Sec-Container2{
+  display: flex;
+  flex-basis: 70%;
+  height: auto;
+  width: auto;
+  background-color: #d90b00;
+  border-radius: 2%;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+}
+.Com-Container{
+  padding: 1%;
+  background-color: antiquewhite;
+  height: 100%;
+  width: 32%;
+  border-radius: 3%;
+
+  
+}
+#comment{
+  width: 95%;
+  height: 100%;
+  border-radius: 1%;
+}
+.video-container{
+  flex-basis: 30%;
+  height: auto;
+  width: auto;
+  background-color: #555;
+  border-radius: 2%;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+}
+.video-container video{
+  border-radius: 5%;
+  padding: 1%;
+  background-color: rgb(0, 0, 0);
+  height: 400px;
+  width: 630px;
+}
 .calendar{
   width:358px;
+  height: 30%;
   margin:0 auto;
-  margin-top:5%;
+  margin-top:2%;
   margin-bottom:2%;
   border-radius:5px;
   font-family:'Open Sans',sans-serif;
@@ -132,3 +185,4 @@ footer h3{
   height: 2px;
   background-color: #000000;
 }
+
