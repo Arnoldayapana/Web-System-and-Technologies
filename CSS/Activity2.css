@@ -64,7 +64,7 @@ nav h1{
   width: 100vw;
   height: 100vh;
   margin-top: 5%;
-  background-color: #d3d3d3;
+  background-color: #b8b8b8;
 }
 .Sec-Container{
   display: flex;
@@ -75,23 +75,14 @@ nav h1{
   flex-basis: 70%;
   height: auto;
   width: auto;
-  background-color: #d90b00;
+  background-color: #000000;
   border-radius: 2%;
   padding: 2%;
   align-items: center;
   justify-content: center;
 }
-.Com-Container{
-  padding: 1%;
-  background-color: antiquewhite;
-  height: 100%;
-  width: 32%;
-  border-radius: 3%;
-
-  
-}
 #comment{
-  width: 95%;
+  width: 90%;
   height: 100%;
   border-radius: 1%;
 }
@@ -99,29 +90,130 @@ nav h1{
   flex-basis: 30%;
   height: auto;
   width: auto;
-  background-color: #555;
+  background-color: #000000;
   border-radius: 2%;
-  padding: 2%;
+  padding: 1%;
   align-items: center;
   justify-content: center;
 }
 .video-container video{
   border-radius: 5%;
-  padding: 1%;
-  background-color: rgb(0, 0, 0);
+  margin: 1%;
+  background-color: rgb(24, 23, 23);
   height: 400px;
-  width: 630px;
+  width: 620px;
+}
+.cmnt, .cmnt1 ,.cmnt2{
+  margin: 2%;
+  padding: 1%;
+  border-radius: 3%;
+  width: 97%;
+  height: 5%;
+  margin-left: 2%;
+  text-decoration: none;
+}
+.cmnt{
+  background-color: rgb(74, 146, 208);
+}
+.cmnt1{
+  background-color: rgb(231, 117, 214);
+}
+.cmnt2{
+  background-color: rgb(170, 208, 74);
+}
+.cmnt h1{
+  text-decoration: solid;
+  font-size:medium;
+  margin-left: 2%;
+
+}
+.cmnt p, .cmnt1 p,.cmnt2 p{
+  margin-left: 1%;
+}
+/* Style for the container */
+.Com-Container {
+  margin-left: 2%;
+  padding: 1%;
+  height: 90%;
+  width: 31%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+/* Style for the heading */
+.Com-Container h2 {
+  color: #333;
+}
+
+/* Style for labels */
+.Com-Container label {
+  display: block;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Style for input fields and textarea */
+.Com-Container input[type="text"],
+.Com-Container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+.Com-Container input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  width: 85%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Com-Container input[type="submit"]:hover {
+  background-color: #64b4b5;
+}
+.clock {
+  font-family: Arial, sans-serif;
+  font-size: 5em;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colon {
+  margin: 0 5px;
+}
+.TC-container{
+  padding-top: 7%;
+  margin-left: 3%;
+  align-items: center;
+  justify-content: center;
 }
 .calendar{
   width:358px;
   height: 30%;
   margin:0 auto;
-  margin-top:2%;
+  margin-top:20%;
   margin-bottom:2%;
   border-radius:5px;
   font-family:'Open Sans',sans-serif;
-  text-align:center;
-  justify-items: flex-end;
+  text-align: center;
+  justify-items: center;
   align-items: end;
   color:#555;
   box-shadow:0 0 50px -14px rgba(0,0,0,.8);
@@ -185,4 +277,5 @@ footer h3{
   height: 2px;
   background-color: #000000;
 }
+
 
