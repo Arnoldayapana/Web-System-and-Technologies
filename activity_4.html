@@ -6,10 +6,10 @@
     <title>Javascript</title>
 </head>
 <body>
-    <h1>JavaScript Variables:</h1>
+    <h1>JavaScript Variables: </h1>
     <p id="FirstName"></p>
     <p id="LastName"></p>
-    <p id="MiddleName"></p>
+    <p id="UserName"></p>
     <p id="Age"></p>
     <p id="PhoneNumber"></p>
     <p id="Address"></p>
@@ -17,37 +17,36 @@
     <p id="BirthDate"></p>
     <p id="Course"></p>
     <p id="Status"></p>
+
     
 
     <script>
         let firstname = "John";
         let lastname = "DelaCruz";
-        let address = "Santa Rosa";
-        let middlename="Santos";
+        var address = "Santa Rosa";
+        var user = "Santos_123";
         var age = 30;
         var phonenumber = "+63966866733";
         var gender = "Male";
         var birthdate = "April 13 2002";
         var course = "BSIT 3-2";
-        var sts ="Single";
+        var _isSingle = true ;
 
         let Fname = "First Name: "+ firstname;
         let Lname = "Last Name: "+ lastname;
-        let Mname = "MIddle Name: "+ middlename;
+        let Username = "User Name: "+ user;
         let Age = "Age: "+ age;
         let Pnumber = "Phone Number: "+ phonenumber;
         let Address ="Address: "+ address;
         let Gender ="Gender: "+ gender;
         let Bdate ="Birth Date: "+ birthdate;
         let Course ="Course/Block: "+ course;
-        let Status ="Status: "+ sts;
+        let Status ="Single: "+ _isSingle;
 
         
-    
-    
-        document.getElementById("FirstName").innerHTML = Fname;
+        document.getElementById("FirstName").innerHTML = firstname;
         document.getElementById("LastName").innerHTML = Lname;
-        document.getElementById("MiddleName").innerHTML = Mname;
+        document.getElementById("UserName").innerHTML = Username;
         document.getElementById("Age").innerHTML = Age;
         document.getElementById("PhoneNumber").innerHTML = Pnumber;
         document.getElementById("Address").innerHTML = Address;
