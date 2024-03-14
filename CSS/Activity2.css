@@ -64,7 +64,7 @@ nav h1{
   font-size: 18px;
 }
 .col-2 img{
-  width: 750px;
+  max-width: 750px;
 }
 .skills{
   display: flex;
@@ -119,7 +119,8 @@ nav h1{
   background-color: rgb(24, 23, 23);
   height: 400px;
   width: 620px;
-}
+} 
+
 .cmnt, .cmnt1 ,.cmnt2{
   margin: 2%;
   padding: 1%;
@@ -141,13 +142,14 @@ nav h1{
 .cmnt, .cmnt1, .cmnt2 h4{
   text-decoration: solid;
   font-size:medium;
-  color: #f7fafa;
+  color: #eeffff;
   margin-left: 2%;
 
 }
 .cmnt p, .cmnt1 p,.cmnt2 p{
   margin-left: 1%;
-  color: #fff;
+  color: #ffffffed;
+  font-size: smaller;
 }
 /* Style for the container */
 .Com-Container {
@@ -707,6 +709,6 @@ footer h3{
 }
 .footerline{
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #000000;
 }
