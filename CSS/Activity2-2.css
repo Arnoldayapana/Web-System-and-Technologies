@@ -9,6 +9,10 @@
         flex-direction: column-reverse;
         width: 85%;
     }
+    h1{
+      font-size: 1rem;
+      margin-left: 5px;
+    }
       .col-1{
         padding: 2%;
       }
@@ -74,5 +78,6 @@
     }
     .ar-container{
         display: none;
+
     }
 }
